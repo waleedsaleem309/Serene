@@ -1,0 +1,66 @@
+.careers-images {
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.careers-image {
+  width: 50%;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-heading1 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 22px;
+  line-height: 1.41em;
+}
+.img-heading2 {
+  font-family: "Avenir", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+@media screen and (max-width: 768px) {
+  .careers-images {
+    display: flex;
+    flex-direction: column;
+  }
+  .careers-image {
+    width: 100%;
+    background-size: cover;
+  }
+  .img-heading1 {
+    font-size: 20px;
+  }
+  .img-heading2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .careers-images {
+    display: flex;
+    flex-direction: column;
+  }
+  .careers-image {
+    width: 100%;
+    background-size: cover;
+  }
+  .img-heading1 {
+    font-size: 18px;
+    margin-top: 80px;
+  }
+  .img-heading2 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .careers-image {
+    background-size: contain;
+  }
+}
